@@ -1,0 +1,47 @@
+.cbutton
+{
+    font-family: 新細明體; 
+    font-size: 9pt; 
+    color: #FFFFFF;
+    background-color: #3366CC;
+    line-height: 10px;
+    Padding-top: 4px;
+    Padding-left: 2px;
+    border-width: 1px;
+    border-top-color: 6699FF; border-right-color: 000099; border-left-color: 6699FF; border-bottom-color: 000099 }
+.table12-bg {background:  url("../images/table02_02.gif"); text-align:center;FONT-SIZE: 10pt;letter-spacing: 1;}
+.table61-bg {background:  url("../images/table06_02.gif");}
+.table62-bg {background:  url("../images/table06_04.gif");}
+.table63-bg {background:  url("../images/table06_05.gif");}
+.table64-bg {background:  url("../images/table06_07.gif");}
+.table612-bg {background:  url("../images/table06_02.gif") repeat-x;padding-top:10px;FONT-SIZE: 10pt;letter-spacing: 1}
+.button-bg {background:  url("../images/bgbutton.gif");text-align:center;color:#000080;}
+.button2-bg {background:  url("../images/bgbutton.gif");text-align:center;color:#800000;font-weight: bold;}
+.button3-bg {background:  url("../images/bgbutton.gif");text-align:center;color:#000080;border-right:1 solid #808080; border-bottom:1 solid #808080;cursor:hand}
+.td-top-padding10 {padding-top:5px}
+.td-top-padding20 {padding-top:15px;padding-right:10px}
+.td-left-padding20 {padding-left:15px}
+.b01-bg {background-color: #ffffff;}
+.b06-bg {background-color: #9dc1d5;}
+.efont {font-family: Arial, Helvetica, sans-serif;font-size:10pt;line-height:150%}
+.td-menu13 {background: #ffcc00;cursor: hand; border-top:1 solid #996600; border-right:1 solid #996600; border-bottom:1 solid #996600;}
+.tab-title {color: #111111;background-color:#FFCC00;cursor: hand;border-top:1 solid #996600; border-right:1 solid #996600; border-bottom:1 solid #996600;}
+.tab-titleon {color: #660000; background-color:#FFFFCC;cursor: hand;border-top:1 solid #996600; border-right:1 solid #996600; border-bottom:1 solid #996600;}
+.font9
+{
+    FONT-FAMILY: 新細明體;FONT-SIZE: 9pt;
+    BACKGROUND-COLOR: #ffffff;BORDER-WIDTH: 1;
+    BORDER-BOTTOM:#000080 1px solid;BORDER-LEFT:#999999 1px solid;
+    BORDER-RIGHT:#000080 1px solid;BORDER-TOP:#999999 1px solid
+}
+.font9T
+{
+    FONT-FAMILY: 新細明體;
+    FONT-SIZE: 9pt;
+    color: #660000;
+    BACKGROUND-COLOR: #ffffcc;
+    BORDER-WIDTH: 1;BORDER-COLOR: #FFFFEC;BORDER-BOTTOM:#000080 1px solid;BORDER-LEFT:#999999 1px solid;
+    BORDER-RIGHT:#000080 1px solid;BORDER-TOP:#999999 1px solid
+}
+.TableTitle	{color:#4B640B; FONT-WEIGHT: bold; font-size:15px; padding-top:4pt;  padding-bottom:2pt}
+.font9_1 {font-family: 新細明體;color: #333333;font-size:9pt;letter-spacing:1px;line-height:150%}

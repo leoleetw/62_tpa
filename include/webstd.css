@@ -1,0 +1,62 @@
+body {
+	color: #333333;
+	font-family: "新細明體", "標楷體", Arial, "Times New Roman";
+	font-size: 11pt;
+	margin-top: 0px;LINE-HEIGHT: 150%;
+	Scrollbar-Face-Color:#EAEAD7; Scrollbar-Arrow-Color:#4B4B4B; Scrollbar-Base-Color:#484824; Scrollbar-Shadow-Color:#FFFFFF; Scrollbar-Dark-Shadow-Color:#FFFFFF; Scrollbar-Highlight-Color:#FFFFFF; Scrollbar-3D-Light-Color:#445FCA;
+}
+TABLE
+{  FONT-SIZE: 11pt;
+   border-collapse: collapse;
+   border-ColorDark:#59571E;
+   border-ColorLight:#59571E;
+   COLOR:#333333;
+   line-height: 150%;
+}
+
+a:link {
+	color: #663300;
+	TEXT-DECORATION: none;
+}
+a:visited {
+	color: #96633;
+	TEXT-DECORATION: none;
+}
+a:active {
+	color: #00FF00;
+	TEXT-DECORATION: none;
+}
+A:hover
+{   COLOR: #008000;FONT-WEIGHT: normal;TEXT-DECORATION: none}
+
+A.news:link
+{   COLOR: #2E2701;CURSOR: hand;FONT-WEIGHT: normal;TEXT-DECORATION: none }
+A.news:visited
+{   COLOR: #2E2701;FONT-WEIGHT: normal;TEXT-DECORATION: none}
+A.news:active
+{   COLOR: #2E2701;FONT-WEIGHT: normal;TEXT-DECORATION: none}
+A.news:hover
+{   COLOR: #008000;FONT-WEIGHT: normal;TEXT-DECORATION: none}
+
+.cbutton
+{
+    font-family: 新細明體; 
+    font-size: 9pt; 
+    color: #FFFFFF;
+    background-color: #3366CC;
+    line-height: 10px;
+    Padding-top: 4px;
+    Padding-left: 2px;
+    border-width: 1px;
+    border-top-color: 6699FF; border-right-color: 000099; border-left-color: 6699FF; border-bottom-color: 000099 }
+.font9
+{
+    FONT-FAMILY: 新細明體;FONT-SIZE: 9pt;
+    BACKGROUND-COLOR: #ffffff;BORDER-WIDTH: 1;
+    BORDER-BOTTOM:#000080 1px solid;BORDER-LEFT:#999999 1px solid;
+    BORDER-RIGHT:#000080 1px solid;BORDER-TOP:#999999 1px solid
+}
+.font10 {font-family: 新細明體;Arial, Helvetica, sans-serif;font-size:10pt;color: #333333;line-height:150%}
+.font11 {font-family: 新細明體;Arial, Helvetica, sans-serif;font-size:11pt;color: #333333;line-height:150%}
+.vote  {color:#4B640B; FONT-WEIGHT: bold; font-size:10pt;TEXT-DECORATION: underline; }
+.vote_button {background:  url("../images/bgbutton.gif");text-align:center;color:#000080;border-right:1 solid #808080; border-bottom:1 solid #808080;cursor:hand}

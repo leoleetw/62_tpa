@@ -1,0 +1,129 @@
+/* CSS Document */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body{background-color: #EEEFEF}
+#header {
+	height: 208px;
+	width: 100%;
+	background-image: url(../images/header_bg.png);
+	background-position:center;
+	overflow:hidden;
+}
+
+#nav_box{
+	width: 864px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.nav_top{
+	float:left;
+	width: 98px;
+	height: 73px;
+	margin-left:10px;
+	margin-top:10px;
+}
+
+#logo{
+	width:381px;
+	height:85px;
+	margin:0px auto 0px auto;
+}
+
+#footer {
+
+	height: 80px;
+	background-color: #000;
+	position:relative;
+	/*margin-top:-68px;*/
+	clear:both;
+	padding-top:24px;
+}
+#footer_main {
+	width: 1000px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.footer_text{
+	margin-left:auto;
+	margin-right:auto;
+	color:#CCC;
+}
+#footer_main span {
+	color:#CCC;
+	font-size:12px;
+}
+.footer_link{
+	cursor:pointer;
+}
+
+
+/*-------Member Profile------*/
+#member_title{
+	background-image:url(../images/member_title.png);
+	width:700px;
+	height:61px;
+	margin-top:45px;
+	margin-left:150px;
+}
+#member_profile{
+	width:700px;
+	margin-left:150px;
+	margin-top:20px;
+}
+#member_profile tr td{
+	border:solid #FFF 1px;
+}
+
+/*-------leftNav--------*/
+#about_main_nav{
+	width:210px;
+	height:100%;
+	float:left;
+	position:relative;
+}
+.leftNav_mid{
+	background:url(../images/leftNav_bg.png);
+	background-repeat:repeat-y;
+	width:210px;
+	height:auto;
+	text-align:center;
+	padding-top:20px;
+}
+.leftNav_mid ul{margin-bottom:0px;}
+.leftNav_bottom{
+	width:160px;
+	height:150px;
+	background:#9F9FA0;
+	margin-left:auto;
+	margin-right:auto;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+}
+.leftNav_mid li{
+	font-size: 18px;
+	color: #FFF;
+	line-height: 3em;
+	list-style: none;
+	font-family: "Microsoft JhengHei UI";
+	font-weight: bolder;
+}
+.nav{
+	display:block;
+}
+.nav:hover{
+	background:url(../images/about_nav_hover.png);
+	background-repeat:no-repeat;
+	margin-left:18px;
+	transition:all 0.5s;
+	text-decoration:none;
+}
+.nav_wrapper{
+	width:210px;
+	height:210px;
+}
+#clear{
+	clear:both;
+}

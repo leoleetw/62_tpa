@@ -1,0 +1,78 @@
+
+body{
+	height:100%;}
+.middle_section{
+	width: 1000px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.banner{
+	width:100%;
+	height:100%;
+}
+.banner_bg{
+	background:#EEEFEF;
+	height: 250px;
+	background-repeat: repeat-x;
+	width: 100%;
+}
+#class_banner_img{
+	width:405px;
+	height:250px;
+	background-image:url(../images/class_banner_img.png);
+	float:right;
+}
+#class_banner_nav{
+	background-image:url(../images/class_banner_nav.png);
+	width:210px;
+	height:145px;
+	margin-top:35px;
+}
+#nav_img{
+	background-image:url(../images/nav_img.png);
+	width:210px;
+	height:65px;
+	/*position:relative;*/
+}
+
+#main_content{
+	width:800px;
+	margin:60px auto 150px auto;
+}
+
+input[type="button"]{
+	width:80px;
+	margin-top:40px;
+	margin-left:10px;
+	color:#fff;
+	background-color:#000;
+	border-style:outset;
+	border-radius:5px;
+	float:right;
+}
+.classroom{
+	width:700px;
+	padding-bottom:20px;
+	margin:45px auto 0px auto;
+	border-bottom:dashed #878686;
+	border-width:1px;
+
+}
+.h1{
+	width:200px;
+	font-size:20px;
+	font-weight:bold;
+	font-family: "Microsoft JhengHei UI";
+	vertical-align:text-top;
+}
+.td_icon{
+	vertical-align:text-top;
+	color:#878686;
+	width:20px;
+}
+.class_contact{
+	color:#666;
+	font-size:16px;
+	font-family: "Microsoft JhengHei UI";}
+}

@@ -1,0 +1,188 @@
+body{
+	height:100%;}
+.middle_section{
+	width: 1000px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	position:relative;
+}
+.banner{
+	width:100%;
+	height:100%;
+}
+.banner_bg{
+	background:#EEEFEF;
+	height: 250px;
+	background-repeat: repeat-x;
+	width: 100%;
+}
+#course_banner_img{
+	width:405px;
+	height:250px;
+	background-image:url(../images/course_banner_img.png);
+	float:right;
+}
+#course_banner_nav{
+	background-image:url(../images/course_banner_nav.png);
+	width:210px;
+	height:145px;
+	float:left;
+	margin-top:35px;
+}
+#main_nav{
+	background-image:url(../images/about_nav_img.png);
+	width:210px;
+	height:431px;
+	float:left;
+	text-align:center;
+	padding-top:80px;
+}
+li{
+	font-size: 16px;
+	color: #FFF;
+	line-height: 3em;
+	list-style: none;
+	font-family: "Microsoft JhengHei UI";
+	font-weight: bolder;
+}
+#main_content{
+	width:700px;
+	height:100%;
+	margin:0px 0px 40px 40px;
+	padding:20px 40px 20px 40px;
+	border:double #9F9FA0;
+	border-radius:20px;
+	float:left;
+	background-color: #fff;
+
+}
+.nav{
+	display:block;
+}
+.nav:hover{
+	background:url(../images/about_nav_hover.png);
+	background-repeat:no-repeat;
+	margin-left:18px;
+	transition:all 0.5s;
+	text-decoration:none;
+}
+
+.nav_hover{
+	background:url(../images/about_nav_hover.png);
+	background-repeat:no-repeat;
+	margin-left:18px;
+	transition:all 0.5s;
+	text-decoration:none;
+}
+
+hr{border-bottom:1px solid #CCCCCC;}
+.img_bg{
+	width:180px;
+	height:140px;
+	border:#CCC thin solid;
+	text-align:center;
+	margin-bottom:10px;
+	padding-top:10px;
+}
+.img_bg a img{
+	max-width:175px;
+	max-height:120px;
+}
+.picture_table{width:100%;}
+.picture_table tr td{height:134px}
+
+#dLabel{
+	font-size:16px;
+	font-family:"Microsoft JhengHei UI";
+	/*background:url(../images/course_dropdown.png);*/
+	background:#1861ae;
+	border-top-left-radius:12px;
+	border-top-right-radius:12px;
+	color:#fff;
+	padding:10px;
+	margin-left:75px;
+	width:auto;
+}
+.dropdown{
+	margin-top:65px;
+	float:left;
+}
+.dropdown ul{
+	margin-left:70px;
+	width:auto;
+}
+
+/*---------------diyroom---------------*/
+#diyroom_banner_img{
+	width:405px;
+	height:250px;
+	background-image:url(../images/diyroom_banner_img.png);
+	float:right;
+}
+#diyroom_banner_nav{
+	background-image:url(../images/diyroom_banner_nav.png);
+	width:210px;
+	height:145px;
+	float:left;
+	margin-top:35px;
+}
+#diy_main_content{
+	width:700px;
+	height:100%;
+	margin:60px 0px 40px 40px;
+	padding:20px 40px 20px 40px;
+	border:double #9F9FA0;
+	border-radius:20px;
+	float:left;
+	background-color: #fff;
+}
+th{border-bottom:#999 thin solid;height:32px;}
+td{height:28px;font-size:16px;}
+input[type="button"]{
+	float:right;
+	width:80px;
+	color:#fff;
+	background-color:#000;
+	border-style:outset;
+	border-radius:5px;
+}
+
+/*---------------diyshow---------------*/
+#diyshow_main_content{
+	width:750px;
+	height:100%;
+	margin:60px 0px 40px 40px;
+	padding:20px 10px 20px 10px;
+	border:double #9F9FA0;
+	border-radius:20px;
+	float:left;
+}
+#diyshow_main_content table tr td{
+	vertical-align:top;
+	padding:10px;
+	background-color: #fff;
+}
+.number_box{
+	height:20px;
+	font-size:16px;
+	font-weight:800;
+	font-family:"Microsoft JhengHei UI";
+	color:#6B76A5;
+}
+.img_box{
+	height:165px;
+	width:222px;
+	border:#CCC thin solid;
+	text-align:center;
+	padding-top:5px;
+}
+.img_box img{
+	max-height:155px;
+	max-width:200px;
+}
+.text_box {
+	font-family:"Microsoft JhengHei UI";
+	font-size:16px;
+	color:#6B76A5;
+}

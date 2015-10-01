@@ -1,0 +1,61 @@
+/* CSS Document */
+
+.dark_green01 {
+	font-family: "Microsoft JhengHei UI";
+	color: #666;
+	background-color: #B7CDD6;
+	text-align: right;
+	vertical-align: text-top;
+	font-size: 16px;
+	height: 36px;
+	padding-top: 8px;
+}
+.dark_green02 {
+	font-family: "Microsoft JhengHei UI";
+	color: #666;
+	background-color: #B7CDD6;
+	text-align: right;
+	vertical-align: text-top;
+	font-size: 16px;
+	height: 200px;
+	padding-top: 8px;
+}
+
+.light_green {
+	color: #666;
+	background-color: #D4E4EA;
+}
+#mail_title_image {
+	background-image: url(../images/mail_title_image.png);
+	width: 513px;
+	height: 53px;
+	margin-top: 12px;
+	margin-left: 13px;
+}
+.mail_table {
+	margin-left: 12px;
+}
+
+input[type="button"]{
+	float: right;
+	width: 80px;
+	color: #fff;
+	background-color: #000;
+	border-style: outset;
+	border-radius: 5px;
+	margin-top: 48px;
+	margin-bottom: 20px;
+}
+.mail_table tr td {
+	border:solid #FFF;
+}
+
+input[type="text"]{
+	margin-left:10px;
+}
+textarea{
+	margin-left: 10px;
+	height: 90%;
+	margin-right: 10px;
+	width: 84%;
+}

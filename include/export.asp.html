@@ -1,0 +1,42 @@
+<!--#include file="../include/dbfunction.php"-->
+<Script Language="VBScript">
+resizeTo 350,300 
+</Script>
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<title>資料匯出</title>
+<link REL="stylesheet" type="text/css" HREF="../include/dms.css">
+<SCRIPT language=JavaScript>
+<!--
+function submitform(){
+	form.submit();
+			
+}
+//-->
+</SCRIPT>
+</head>
+
+<body class=tool onload="submitform();">
+<form name="form" action="<?php=request("URL")?>" method="post">
+<input type="hidden" name="SQL" value="<?php=request("SQL")?>">
+</form>
+<table border="1" width="300" height="140" align="center" cellspacing="0" style="border-collapse: collapse">
+  <tr>
+    <td width="100%" style="background-color: rgb(55,111,135); color: rgb(255,255,255); filter:Alpha(Opacity=100, style=1)" class="font11"><font color="#FFFFFF">
+    系統訊息</td>
+  </tr>
+  <tr>
+    <td width="100%" align="center">
+    <font face="標楷體" size="4" color="#800000"><strong>您選取的資料已匯出成功!!</strong></font><br><p>
+    <a href OnClick="VBS:window.close">
+    <img border="0" src="../images/icon-close.gif" width="92" height="26"></a> 
+    </td> 
+  </tr> 
+</table>
+</body>
+
+</html>

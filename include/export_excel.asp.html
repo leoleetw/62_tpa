@@ -1,0 +1,49 @@
+<!--#include file="../include/dbfunction.php"-->
+<?php
+Response.AddHeader "Content-disposition","attachment; filename=Record.xls"
+Function ShowGrids (SQL)
+    Set RS1 = Server.CreateObject("ADODB.RecordSet")
+    RS1.Open SQL,Conn,1,1
+    FieldsCount = RS1.Fields.Count-1
+    Dim i	
+    echo "<table id=grid border=1 cellspacing='0' cellpadding='2' style='border-collapse: collapse;BACKGROUND-COLOR: #ffffff' bordercolor='#C0C0C0' width='100%' align='center'>"
+    echo "<tr>"
+    For i = 1 To FieldsCount
+	echo "<td bgcolor='#FFE1AF'><font color='#111111'><span style='font-size: 9pt; font-family: 新細明體'>" & RS1(i).Name & "</span></font></td>"
+    Next
+    echo "</tr>"
+    While Not RS1.EOF
+	echo "<tr>"
+	For i = 1 To FieldsCount
+          echo "<td bgcolor='#FFFFFF'><span style='font-size: 9pt; font-family: 新細明體'>" & RS1(i) & "</span></td>"
+	Next    
+        RS1.MoveNext
+	echo "</tr>"
+    Wend
+    echo "</table>"
+    RS1.Close
+End Function
+?>
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<title>資料匯出</title>
+</head>
+
+<body class=tool>
+<?php
+SQL=request("SQL")
+call ShowGrids (SQL)
+?>
+</body>
+
+</html>
+<!--#include file="../include/dbclose.php"-->
+<Script Language="VBScript">
+sub document_OnClick
+  window.close
+end sub
+</Script>
